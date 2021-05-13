@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Target : MonoBehaviour
 {
     private Rigidbody targetRB;
@@ -68,4 +69,6 @@ public class Target : MonoBehaviour
             gameManager.GameOver();
         }
     }
+    
+
 }
